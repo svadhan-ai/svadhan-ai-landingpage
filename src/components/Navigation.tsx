@@ -21,7 +21,7 @@ const Navigation = () => {
             <img 
               src={logo} 
               alt="Svadhan.ai" 
-              className="h-10 w-auto transition-all duration-300 group-hover:scale-110 group-hover:drop-shadow-lg" 
+              className="h-14 md:h-16 w-auto transition-all duration-300 group-hover:scale-105 drop-shadow-md group-hover:drop-shadow-xl" 
             />
           </div>
 
