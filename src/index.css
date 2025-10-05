@@ -17,16 +17,23 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    --primary: 214 100% 37%;
+    --primary: 214 100% 45%;
     --primary-foreground: 0 0% 100%;
     
-    --primary-light: 214 95% 50%;
-    --primary-lighter: 214 90% 93%;
+    --primary-light: 214 95% 60%;
+    --primary-lighter: 214 85% 75%;
+    --primary-glow: 214 100% 50%;
 
-    --secondary: 180 65% 45%;
+    --secondary: 180 75% 40%;
     --secondary-foreground: 0 0% 100%;
     
-    --secondary-light: 180 60% 55%;
+    --secondary-light: 180 70% 50%;
+    --secondary-glow: 180 75% 45%;
+    
+    --gradient-primary: linear-gradient(135deg, hsl(214 100% 45%), hsl(180 75% 40%));
+    --gradient-glow: linear-gradient(135deg, hsl(214 100% 50% / 0.2), hsl(180 75% 45% / 0.2));
+    
+    --shadow-glow: 0 0 60px hsl(214 100% 50% / 0.3);
 
     --muted: 215 15% 95%;
     --muted-foreground: 215 15% 45%;
